@@ -5,6 +5,7 @@
 h1 {
   text-align: center;
   font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -28,25 +29,25 @@ h1 {
 .tit2,
 .tit3 {
 
-  width: 45px;
-  background-color: darkgoldenrod;
+  width: 80px;
+  background-color: rgb(220, 231, 64);
   border: 1px solid black;
   position: absolute;
   top: auto;
   font-size: 75%;
   color: black;
-
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   right: 4px;
-  text-align: right;
+  text-align: center;
 
 }
 
 .tit2 {
-  background-color: coral;
+  background-color: rgb(231, 137, 137);
 }
 
 .tit3 {
-  background-color: darkgreen;
+  background-color: rgb(140, 235, 140);
 
 }
 
@@ -57,6 +58,8 @@ h1 {
   position: relative;
   top: 25px;
   font-size: 60%;
+  font-family: sans-serif;
+  color: black;
 }
 
 @media (min-width: 992px) {
